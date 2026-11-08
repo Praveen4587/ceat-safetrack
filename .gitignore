@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large local Cloudflare binary (not needed on cloud)
+cloudflared.exe
+
+# SQLite temporary journal files
+data/*.db-shm
+data/*.db-wal
+
+# Uploaded evidence photos (preserve folder with .gitkeep)
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Environment and editor files
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

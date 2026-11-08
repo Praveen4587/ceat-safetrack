@@ -1,0 +1,14 @@
+CEAT SAFETY PORTAL - BRANDING REFERENCE
+======================================
+This application uses a text-only CEAT workplace-safety identity and a red / black / white
+interface palette. It does not embed or reproduce the CEAT trademark logo.
+
+Company context checked against the official CEAT Sri Lanka website:
+https://www.ceatsrilanka.com/about-us/
+https://www.ceatsrilanka.com/
+CEAT Sri Lanka describes its tyre manufacturing operations across radial, commercial,
+motorcycle, three-wheeler and agricultural vehicle segments, and emphasizes innovation,
+quality, customer value and a safe, smarter mobility purpose.
+
+The portal is an internal workplace safety reporting application prototype. It is not an
+official CEAT product and should only be deployed after written company/IT approval.

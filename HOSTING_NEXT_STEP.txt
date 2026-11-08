@@ -1,0 +1,17 @@
+HOSTING NOTE - READ BEFORE DEPLOYMENT
+
+This release still uses SQLite at data/safetrack.db and local data/uploads storage.
+It is suitable for local testing. Do not deploy this exact build to a free ephemeral
+web host for real CEAT employee data: restarts/redeploys may lose local database and
+uploaded files, and SQLite is not suitable as the shared database for a hosted
+multi-user deployment.
+
+Next hosting step:
+1. Move application data to managed PostgreSQL (e.g. Supabase PostgreSQL).
+2. Move uploaded evidence photos to persistent object storage.
+3. Configure the host to bind to 0.0.0.0 and its assigned PORT.
+4. Set secure environment variables, HTTPS, backups, and access restrictions.
+5. Test role access, monthly/division exports, file uploads, and recovery before use.
+
+Do not upload real employee information until CEAT IT approves the hosting provider
+and security controls.

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ceat-safetrack
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py serve
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8

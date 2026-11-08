@@ -1,0 +1,21 @@
+CEAT SAFETY PORTAL - UPDATE v4.1
+================================
+- Staff accounts no longer have a self-service password-change page.
+- Only the administrator can create accounts, reset staff passwords, or change the admin password.
+- Passwords must be exactly 8 numeric digits.
+- EPF K1434 -> username 1434; initial password 14341434.
+- Existing databases are migrated so staff are not trapped on the old forced-change screen.
+- New Report retains Responsible Division selection.
+- New report notifications go to active users in the responsible division plus Safety/Admin users.
+- Unread notifications are highlighted in red.
+- CEAT red / black / white theme is applied consistently.
+
+Security note: EPF-derived initial passwords are predictable. Admin should set unique 8-digit
+passwords before wider use. This is a local pilot app, not a production-ready public website.
+
+CEAT v4.3 UI update
+- New Report now displays exactly the 14 official departments as visual selection cards.
+- Cards use department-themed icons, selected-state styling, and smooth hover effects.
+- The Staff Directory account-creation division dropdown is also limited to the same 14 departments.
+- Report submission accepts only one of the 14 official department names.
+- Existing staff records and report history are preserved when upgrading with the existing data folder.

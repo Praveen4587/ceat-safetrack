@@ -1,0 +1,7 @@
+SafeTrack v3.3
+- Downloads page now filters by Department and Month.
+- Department export includes only matching reports submitted during the selected month.
+- Original department Excel workbook is used as the export template.
+- New Report keeps Process and does not collect Operation.
+- Staff Compliance export remains separate.
+- Existing database and uploaded files are not modified by this update.

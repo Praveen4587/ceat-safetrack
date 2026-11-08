@@ -1,0 +1,3 @@
+# SafeTrack includes its Excel library in the vendor/ folder.
+# No pip installation or internet connection is required.
+# Python 3.10+
